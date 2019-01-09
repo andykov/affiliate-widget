@@ -1,32 +1,35 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+  <div class="c-widget">
+    <div class="widget-admin">
+      <div class="widget-admin_view">
+        <label>
+          <input type="radio" name="w-view" checked>
+          <span>Вид 1</span>
+        </label>
+        <label>
+          <input type="radio" name="w-view">
+          <span>Вид 2</span>
+        </label>
+        <label>
+          <input type="radio" name="w-view">
+          <span>Вид 3</span>
+        </label>
+      </div>
+    </div>
+
+    <div class="widget">
+      <div class="car">
+        <div class="car_photo">
+          <img src="https://rentride.ru/upload/resize_cache/iblock/656/300_180_0/65619a018c8f0ae8a972de98de0da585.jpg" alt="2007, Ford Fusion">
+        </div>
+        <div class="car_name">2007, Ford Fusion</div>
+        <div class="car_option">опции</div>
+        <div class="car_price">
+          <span class="car_price-old">3000</span>
+          <span class="car_price-current">1000</span>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
